@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "item": "принтер",
+            "quantity": "10",
+            "price": "6000",
+            "buyer": "Вася",
+            "date": "1.1.1996"
+        },
+        {
+            "item": "принтер",
+            "quantity": "10",
+            "price": "6000",
+            "buyer": "Вася",
+            "date": "1.1.1996"
+        },
+        {
+            "item": "scaner",
+            "quantity": "777",
+            "price": "9000",
+            "buyer": "Mikhail",
+            "date": "1.1.2000"
+        }
+    ]
+}
