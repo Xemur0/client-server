@@ -1,0 +1,8 @@
+2022-02-01 00:02:27,515 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-02-01 00:02:27,515 DEBUG client.py Formed presence message for Guest
+2022-02-01 00:02:27,517 DEBUG client.py Read from server: {'response': 200}
+2022-02-01 00:02:27,518 DEBUG client.py Принят ответ от сервера 200 : OK
+2022-02-01 00:03:51,681 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-02-01 00:03:51,682 DEBUG client.py Formed presence message for Guest
+2022-02-01 00:03:51,683 DEBUG client.py Read from server: {'response': 200}
+2022-02-01 00:03:51,683 DEBUG client.py Принят ответ от сервера 200 : OK
