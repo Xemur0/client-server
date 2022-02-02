@@ -10,11 +10,13 @@ from common.utils import Utils as U
 import logging
 import logs.client_log_config
 from errors import ReqFieldMissingError
+from decorators import Log
 
 LOGGER_FOR_CLIENT = logging.getLogger('client')
 
 
 class Client_Core(U):
+    @Log()
     def create_arg_parser(self):
         """
         Создаём парсер аргументов коммандной строки
@@ -25,6 +27,7 @@ class Client_Core(U):
         parser.add_argument('port', default=DEFAULT_PORT, type=int, nargs='?')
         return parser
 
+    @Log()
     def create_presence(self, account_name='Guest'):
         '''
         Функция генерирует запрос о присутствии клиента
@@ -42,6 +45,7 @@ class Client_Core(U):
         LOGGER_FOR_CLIENT.debug(f'Formed {PRESENCE} message for {account_name}')
         return out
 
+    @Log()
     def process_ans(self, message):
         '''
         Функция разбирает ответ сервера

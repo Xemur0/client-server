@@ -8,13 +8,14 @@ from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
 from common.utils import Utils as U
 import logging
 import logs.server_log_config
-
+from decorators import Log
 from errors import IncorrectDataRecivedError
 
 LOGGER_FOR_SERVER = logging.getLogger('server')
 
 
 class Server_Core(U):
+    @Log()
     def process_client_message(self, message):
         '''
         Обработчик сообщений от клиентов, принимает словарь -
@@ -33,6 +34,7 @@ class Server_Core(U):
             ERROR: 'Bad Request'
         }
 
+    @Log()
     def create_arg_parser(self):
         """
         Парсер аргументов коммандной строки
