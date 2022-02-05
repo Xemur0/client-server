@@ -38,11 +38,14 @@ class Client_Core(U):
         parser.add_argument('addr', default=DEFAULT_IP_ADDRESS, nargs='?')
         parser.add_argument('port', default=DEFAULT_PORT, type=int, nargs='?')
         parser.add_argument('-m', '--mode', default='listen', nargs='?')
-
+        parser.add_argument('-n', '--name')
         namespace = parser.parse_args(sys.argv[1:])
         server_address = namespace.addr
         server_port = namespace.port
         client_mode = namespace.mode
+        client_name = namespace.name
+
+
 
 
         # проверим подходящий номер порта
@@ -55,10 +58,10 @@ class Client_Core(U):
         # Проверим допустим ли выбранный режим работы клиента
         if client_mode not in ('listen', 'send'):
             LOGGER_FOR_CLIENT.critical(f'Указан недопустимый режим работы {client_mode}, '
-                            f'допустимые режимы: listen , send')
+                                       f'допустимые режимы: listen , send')
             sys.exit(1)
 
-        return server_address, server_port, client_mode
+        return server_address, server_port, client_mode, client_name
 
     @Log()
     def create_presence(self, account_name='Guest'):
@@ -93,11 +96,11 @@ class Client_Core(U):
                 raise ServerError(f'400 : {message[ERROR]}')
         raise ReqFieldMissingError(RESPONSE)
 
-
     def create_message(self, sock, account_name='Guest'):
         """Функция запрашивает текст сообщения и возвращает его.
         Так же завершает работу при вводе подобной комманды
         """
+
         message = input('Введите сообщение для отправки или \'!!!\' для завершения работы: ')
         if message == '!!!':
             sock.close()
@@ -117,7 +120,7 @@ class Client_Core(U):
         '''Загружаем параметы коммандной строки'''
         # client.py 192.168.1.2 8079
 
-        server_address, server_port, client_mode = self.create_arg_parser()
+        server_address, server_port, client_mode, client_name = self.create_arg_parser()
 
         LOGGER_FOR_CLIENT.info(
             f'Запущен клиент с парамертами: адрес сервера: {server_address}, '
@@ -150,7 +153,7 @@ class Client_Core(U):
             # начинаем обмен с ним, согласно требуемому режиму.
             # основной цикл прогрммы:
             if client_mode == 'send':
-                print('Режим работы - отправка сообщений.')
+                print(f'Режим работы - отправка сообщений.')
             else:
                 print('Режим работы - приём сообщений.')
             while True:
