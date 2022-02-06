@@ -45,9 +45,6 @@ class Client_Core(U):
         client_mode = namespace.mode
         client_name = namespace.name
 
-
-
-
         # проверим подходящий номер порта
         if not 1023 < server_port < 65536:
             LOGGER_FOR_CLIENT.critical(
@@ -96,11 +93,12 @@ class Client_Core(U):
                 raise ServerError(f'400 : {message[ERROR]}')
         raise ReqFieldMissingError(RESPONSE)
 
-    def create_message(self, sock, account_name='Guest'):
+    def create_message(self, sock):
         """Функция запрашивает текст сообщения и возвращает его.
         Так же завершает работу при вводе подобной комманды
         """
 
+        client_name = input('Введите имя пользователя: ')
         message = input('Введите сообщение для отправки или \'!!!\' для завершения работы: ')
         if message == '!!!':
             sock.close()
@@ -110,7 +108,7 @@ class Client_Core(U):
         message_dict = {
             ACTION: MESSAGE,
             TIME: time.time(),
-            ACCOUNT_NAME: account_name,
+            ACCOUNT_NAME: client_name,
             MESSAGE_TEXT: message
         }
         LOGGER_FOR_CLIENT.debug(f'Сформирован словарь сообщения: {message_dict}')

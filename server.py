@@ -19,7 +19,7 @@ LOGGER_FOR_SERVER = logging.getLogger('server')
 
 class Server_Core(U):
     @Log()
-    def process_client_message(self, message, messages_list,  client):
+    def process_client_message(self, message, messages_list, client):
         '''
         Обработчик сообщений от клиентов, принимает словарь -
         сообщение от клинта, проверяет корректность,
