@@ -1,7 +1,6 @@
 from tabulate import tabulate
 
 from les_1.task_1 import HostingPing
-from les_1.task_2 import RangePing
 
 
 class TabulatePingTab(HostingPing):
