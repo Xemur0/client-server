@@ -1,10 +1,9 @@
 import ipaddress
 import subprocess
 
-from les_1.task_2 import RangePing
 
 
-class HostingPing(RangePing):
+class HostingPing:
     def host_ping(self, ip_addresses):
         reachable = []
         unreachable = []

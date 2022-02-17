@@ -1,9 +1,9 @@
 from tabulate import tabulate
 
-from les_1.task_1 import HostingPing
+from les_1.task_2 import RangePing
 
 
-class TabulatePingTab(HostingPing):
+class TabulatePingTab(RangePing):
     def host_range_ping_tab(self, list_ip):
         table = {"Reachable": list_ip[0], "Unreachable": list_ip[1]}
         print(tabulate(table, headers="keys"))

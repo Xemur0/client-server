@@ -1,7 +1,9 @@
 import ipaddress
 
+from les_1.task_1 import HostingPing
 
-class RangePing:
+
+class RangePing(HostingPing):
     def host_range_ping(self, ip_addresses):
         ip_list = []
         for ip_address in ip_addresses:
