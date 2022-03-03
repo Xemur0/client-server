@@ -6,14 +6,12 @@ import socket
 import sys
 import threading
 import select
-
 from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QApplication, QMessageBox
-
 from common.utils import get_message, send_message
 from common.variables import DESTINATION, SENDER, ACTION, PRESENCE, USER, TIME, ACCOUNT_NAME, RESPONSE_200, RESPONSE_400, ERROR, MESSAGE, MESSAGE_TEXT, EXIT, GET_CONTACTS, RESPONSE_202, \
-    LIST_INFO, ADD_CONTACT, REMOVE_CONTACT, USERS_REQUEST
-from decorators import Log
+    LIST_INFO, ADD_CONTACT, REMOVE_CONTACT, USERS_REQUEST, DEFAULT_PORT
+from common.decorators import Log
 from descrptrs import Port, Host
 from metaclasses import ServerVerifier
 from server_database import ServerStorage
@@ -60,9 +58,10 @@ class Server(threading.Thread, metaclass=ServerVerifier):
         self.sock.listen()
 
     def run(self):
+        global new_connection
         self.init_socket()
-
         while True:
+
             try:
                 client, client_address = self.sock.accept()
             except OSError:
@@ -71,46 +70,47 @@ class Server(threading.Thread, metaclass=ServerVerifier):
                 LOGGER_FOR_SERVER.info(f'Установлено соедение с ПК {client_address}')
                 self.clients.append(client)
 
-            received_data_lst = []
+            recv_data_lst = []
             send_data_lst = []
+            err_lst = []
 
             try:
                 if self.clients:
-                    received_data_lst, send_data_lst, err_lst = select.select(
-                        self.clients, self.clients, [], 0)
+                    recv_data_lst, send_data_lst, err_lst = select.select(self.clients, self.clients, [], 0)
             except OSError as err:
                 LOGGER_FOR_SERVER.error(f'Ошибка работы с сокетами: {err}')
 
-            if received_data_lst:
-                for client_with_message in received_data_lst:
+            if recv_data_lst:
+                for client_with_message in recv_data_lst:
                     try:
-                        self.process_client_message(
-                            get_message(client_with_message), client_with_message)
-                    except OSError:
-                        LOGGER_FOR_SERVER.info(
-                            f'Клиент {client_with_message.getpeername()} отключился от сервера.')
+                        self.process_client_message(get_message(client_with_message), client_with_message)
+                    except (OSError):
+                        LOGGER_FOR_SERVER.info(f'Клиент {client_with_message.getpeername()} отключился от сервера.')
                         for name in self.names:
                             if self.names[name] == client_with_message:
                                 self.database.user_logout(name)
                                 del self.names[name]
                                 break
                         self.clients.remove(client_with_message)
+                        with block_thread:
+                            new_connection = True
+
             for message in self.messages:
                 try:
                     self.process_message(message, send_data_lst)
                 except (ConnectionAbortedError, ConnectionError, ConnectionResetError, ConnectionRefusedError):
-                    LOGGER_FOR_SERVER.info(
-                        f'Связь с клиентом с именем {message[DESTINATION]} была потеряна')
+                    LOGGER_FOR_SERVER.info(f'Связь с клиентом с именем {message[DESTINATION]} была потеряна')
                     self.clients.remove(self.names[message[DESTINATION]])
-                    self.database.user_logout(message[DESTINATION])  # add_new
+                    self.database.user_logout(message[DESTINATION])
                     del self.names[message[DESTINATION]]
+                    with block_thread:
+                        new_connection = True
             self.messages.clear()
 
     def process_message(self, message, listen_socks):
         if message[DESTINATION] in self.names and self.names[message[DESTINATION]] in listen_socks:
             send_message(self.names[message[DESTINATION]], message)
-            LOGGER_FOR_SERVER.info(
-                f'Отправлено сообщение пользователю {message[DESTINATION]} от пользователя {message[SENDER]}.')
+            LOGGER_FOR_SERVER.info(f'Отправлено сообщение пользователю {message[DESTINATION]} от пользователя {message[SENDER]}.')
         elif message[DESTINATION] in self.names and self.names[message[DESTINATION]] not in listen_socks:
             raise ConnectionError
         else:
@@ -120,12 +120,12 @@ class Server(threading.Thread, metaclass=ServerVerifier):
     def process_client_message(self, message, client):
         global new_connection
         LOGGER_FOR_SERVER.debug(f'Разбор сообщения от клиента : {message}')
+
         if ACTION in message and message[ACTION] == PRESENCE and TIME in message and USER in message:
             if message[USER][ACCOUNT_NAME] not in self.names.keys():
                 self.names[message[USER][ACCOUNT_NAME]] = client
                 client_ip, client_port = client.getpeername()
-                self.database.user_login(
-                    message[USER][ACCOUNT_NAME], client_ip, client_port)
+                self.database.user_login(message[USER][ACCOUNT_NAME], client_ip, client_port)
                 send_message(client, RESPONSE_200)
                 with block_thread:
                     new_connection = True
@@ -137,17 +137,22 @@ class Server(threading.Thread, metaclass=ServerVerifier):
                 client.close()
             return
 
-        elif ACTION in message and message[ACTION] == MESSAGE and DESTINATION in message and TIME in message and SENDER \
-                in message and MESSAGE_TEXT in message and self.names[message[SENDER]] == client:
-            self.messages.append(message)
-            self.database.process_message(
-                message[SENDER], message[DESTINATION])
+        elif ACTION in message and message[ACTION] == MESSAGE and DESTINATION in message and TIME in message \
+                and SENDER in message and MESSAGE_TEXT in message and self.names[message[SENDER]] == client:
+            if message[DESTINATION] in self.names:
+                self.messages.append(message)
+                self.database.process_message(message[SENDER], message[DESTINATION])
+                send_message(client, RESPONSE_200)
+            else:
+                response = RESPONSE_400
+                response[ERROR] = 'Пользователь не зарегистрирован на сервере.'
+                send_message(client, response)
             return
 
-        elif ACTION in message and message[ACTION] == EXIT and ACCOUNT_NAME in message and self.names[message[ACCOUNT_NAME]] == client:
+        elif ACTION in message and message[ACTION] == EXIT and ACCOUNT_NAME in message \
+                and self.names[message[ACCOUNT_NAME]] == client:
             self.database.user_logout(message[ACCOUNT_NAME])
-            LOGGER_FOR_SERVER.info(
-                f'Клиент {message[ACCOUNT_NAME]} корректно отключился от сервера.')
+            LOGGER_FOR_SERVER.info(f'Клиент {message[ACCOUNT_NAME]} корректно отключился от сервера.')
             self.clients.remove(self.names[message[ACCOUNT_NAME]])
             self.names[message[ACCOUNT_NAME]].close()
             del self.names[message[ACCOUNT_NAME]]
@@ -174,10 +179,8 @@ class Server(threading.Thread, metaclass=ServerVerifier):
         elif ACTION in message and message[ACTION] == USERS_REQUEST and ACCOUNT_NAME in message \
                 and self.names[message[ACCOUNT_NAME]] == client:
             response = RESPONSE_202
-            response[LIST_INFO] = [user[0]
-                                   for user in self.database.users_list()]
+            response[LIST_INFO] = [user[0] for user in self.database.users_list()]
             send_message(client, response)
-
         else:
             response = RESPONSE_400
             response[ERROR] = 'Запрос некорректен.'
@@ -185,11 +188,24 @@ class Server(threading.Thread, metaclass=ServerVerifier):
             return
 
 
-def main():
+def config_load():
     config = configparser.ConfigParser()
-
     dir_path = os.path.dirname(os.path.realpath(__file__))
     config.read(f"{dir_path}/{'server.ini'}")
+    if 'SETTINGS' in config:
+        return config
+    else:
+        config.add_section('SETTINGS')
+        config.set('SETTINGS', 'Default_port', str(DEFAULT_PORT))
+        config.set('SETTINGS', 'Listen_Address', '')
+        config.set('SETTINGS', 'Database_path', '')
+        config.set('SETTINGS', 'Database_file', 'server_database.db3')
+        return config
+
+
+def main():
+    config = config_load()
+
     listen_address, listen_port = arg_parser(
         config['SETTINGS']['Default_port'], config['SETTINGS']['Listen_Address'])
     database = ServerStorage(
