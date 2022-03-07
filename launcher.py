@@ -10,9 +10,9 @@ while True:
     elif ACTION == 's':
         PROCESS.append(subprocess.Popen('python server.py',
                                           creationflags=subprocess.CREATE_NEW_CONSOLE))
-        PROCESS.append(subprocess.Popen('python client.py -n test1',
+        PROCESS.append(subprocess.Popen('python client.py',
                                           creationflags=subprocess.CREATE_NEW_CONSOLE))
-        PROCESS.append(subprocess.Popen('python client.py -n test2',
+        PROCESS.append(subprocess.Popen('python client2.py',
                                           creationflags=subprocess.CREATE_NEW_CONSOLE))
 
     elif ACTION == 'x':
