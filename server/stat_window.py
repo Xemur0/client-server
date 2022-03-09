@@ -4,17 +4,14 @@ from PyQt5.QtCore import Qt
 
 
 class StatWindow(QDialog):
-    """
-    Класс - окно со статистикой пользователей
-    """
-
+    """Класс - окно со статистикой пользователей"""
     def __init__(self, database):
         super().__init__()
 
         self.database = database
-        self.initUI()
+        self.init_ui()
 
-    def initUI(self):
+    def init_ui(self):
         self.setWindowTitle('Статистика клиентов')
         self.setFixedSize(600, 700)
         self.setAttribute(Qt.WA_DeleteOnClose)
@@ -30,15 +27,13 @@ class StatWindow(QDialog):
         self.create_stat_model()
 
     def create_stat_model(self):
-        """
-        Метод реализующий заполнение таблицы статистикой сообщений.
-        """
-
+        """Метод реализующий заполнение таблицы статистикой сообщений."""
         stat_list = self.database.message_history()
 
-        list = QStandardItemModel()
-        list.setHorizontalHeaderLabels(
-            ['Имя Клиента', 'Последний раз входил', 'Сообщений отправлено', 'Сообщений получено'])
+        list_info = QStandardItemModel()
+        list_info.setHorizontalHeaderLabels(
+            ['Имя Клиента', 'Последний раз входил',
+             'Сообщений отправлено', 'Сообщений получено'])
         for row in stat_list:
             user, last_seen, sent, recvd = row
             user = QStandardItem(user)
@@ -49,7 +44,7 @@ class StatWindow(QDialog):
             sent.setEditable(False)
             recvd = QStandardItem(str(recvd))
             recvd.setEditable(False)
-            list.appendRow([user, last_seen, sent, recvd])
-        self.stat_table.setModel(list)
+            list_info.appendRow([user, last_seen, sent, recvd])
+        self.stat_table.setModel(list_info)
         self.stat_table.resizeColumnsToContents()
         self.stat_table.resizeRowsToContents()

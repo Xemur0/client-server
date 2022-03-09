@@ -8,12 +8,15 @@ while True:
     if ACTION == 'q':
         break
     elif ACTION == 's':
-        PROCESS.append(subprocess.Popen('python server.py',
-                                          creationflags=subprocess.CREATE_NEW_CONSOLE))
-        PROCESS.append(subprocess.Popen('python client.py',
-                                          creationflags=subprocess.CREATE_NEW_CONSOLE))
-        PROCESS.append(subprocess.Popen('python client2.py',
-                                          creationflags=subprocess.CREATE_NEW_CONSOLE))
+        PROCESS.append(
+            subprocess.Popen('python server.py',
+                             creationflags=subprocess.CREATE_NEW_CONSOLE))
+        PROCESS.append(
+            subprocess.Popen('python client.py',
+                             creationflags=subprocess.CREATE_NEW_CONSOLE))
+        PROCESS.append(
+            subprocess.Popen('python client2.py',
+                             creationflags=subprocess.CREATE_NEW_CONSOLE))
 
     elif ACTION == 'x':
         while PROCESS:

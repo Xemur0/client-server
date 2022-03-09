@@ -1,12 +1,12 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 
 
-class Ui_MainClientWindow(object):
-    def setupUi(self, MainClientWindow):
-        MainClientWindow.setObjectName("MainClientWindow")
-        MainClientWindow.resize(756, 534)
-        MainClientWindow.setMinimumSize(QtCore.QSize(756, 534))
-        self.centralwidget = QtWidgets.QWidget(MainClientWindow)
+class UiMainClientWindow(object):
+    def setup_ui(self, main_client_window):
+        main_client_window.setObjectName("MainClientWindow")
+        main_client_window.resize(756, 534)
+        main_client_window.setMinimumSize(QtCore.QSize(756, 534))
+        self.centralwidget = QtWidgets.QWidget(main_client_window)
         self.centralwidget.setObjectName("centralwidget")
         self.label_contacts = QtWidgets.QLabel(self.centralwidget)
         self.label_contacts.setGeometry(QtCore.QRect(10, 0, 101, 16))
@@ -38,23 +38,23 @@ class Ui_MainClientWindow(object):
         self.btn_clear = QtWidgets.QPushButton(self.centralwidget)
         self.btn_clear.setGeometry(QtCore.QRect(460, 450, 131, 31))
         self.btn_clear.setObjectName("btn_clear")
-        MainClientWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(MainClientWindow)
+        main_client_window.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(main_client_window)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 756, 21))
         self.menubar.setObjectName("menubar")
         self.menu = QtWidgets.QMenu(self.menubar)
         self.menu.setObjectName("menu")
         self.menu_2 = QtWidgets.QMenu(self.menubar)
         self.menu_2.setObjectName("menu_2")
-        MainClientWindow.setMenuBar(self.menubar)
-        self.statusBar = QtWidgets.QStatusBar(MainClientWindow)
+        main_client_window.setMenuBar(self.menubar)
+        self.statusBar = QtWidgets.QStatusBar(main_client_window)
         self.statusBar.setObjectName("statusBar")
-        MainClientWindow.setStatusBar(self.statusBar)
-        self.menu_exit = QtWidgets.QAction(MainClientWindow)
+        main_client_window.setStatusBar(self.statusBar)
+        self.menu_exit = QtWidgets.QAction(main_client_window)
         self.menu_exit.setObjectName("menu_exit")
-        self.menu_add_contact = QtWidgets.QAction(MainClientWindow)
+        self.menu_add_contact = QtWidgets.QAction(main_client_window)
         self.menu_add_contact.setObjectName("menu_add_contact")
-        self.menu_del_contact = QtWidgets.QAction(MainClientWindow)
+        self.menu_del_contact = QtWidgets.QAction(main_client_window)
         self.menu_del_contact.setObjectName("menu_del_contact")
         self.menu.addAction(self.menu_exit)
         self.menu_2.addAction(self.menu_add_contact)
@@ -62,22 +62,33 @@ class Ui_MainClientWindow(object):
         self.menu_2.addSeparator()
         self.menubar.addAction(self.menu.menuAction())
         self.menubar.addAction(self.menu_2.menuAction())
-        self.retranslateUi(MainClientWindow)
+        self.retranslate_ui(main_client_window)
         self.btn_clear.clicked.connect(self.text_message.clear)
-        QtCore.QMetaObject.connectSlotsByName(MainClientWindow)
+        QtCore.QMetaObject.connectSlotsByName(main_client_window)
 
-    def retranslateUi(self, MainClientWindow):
+    def retranslate_ui(self, main_client_window):
         _translate = QtCore.QCoreApplication.translate
-        MainClientWindow.setWindowTitle(_translate("MainClientWindow", "Чат Программа alpha release"))
-        self.label_contacts.setText(_translate("MainClientWindow", "Список контактов:"))
-        self.btn_add_contact.setText(_translate("MainClientWindow", "Добавить контакт"))
-        self.btn_remove_contact.setText(_translate("MainClientWindow", "Удалить контакт"))
-        self.label_history.setText(_translate("MainClientWindow", "История сообщений:"))
-        self.label_new_message.setText(_translate("MainClientWindow", "Введите новое сообщение:"))
-        self.btn_send.setText(_translate("MainClientWindow", "Отправить сообщение"))
-        self.btn_clear.setText(_translate("MainClientWindow", "Очистить поле"))
+        main_client_window.setWindowTitle(_translate("MainClientWindow",
+                                                     "Чат Программа alpha "
+                                                     "release"))
+        self.label_contacts.setText(_translate("MainClientWindow",
+                                               "Список контактов:"))
+        self.btn_add_contact.setText(_translate("MainClientWindow",
+                                                "Добавить контакт"))
+        self.btn_remove_contact.setText(_translate("MainClientWindow",
+                                                   "Удалить контакт"))
+        self.label_history.setText(_translate("MainClientWindow",
+                                              "История сообщений:"))
+        self.label_new_message.setText(_translate("MainClientWindow",
+                                                  "Введите новое сообщение:"))
+        self.btn_send.setText(_translate("MainClientWindow",
+                                         "Отправить сообщение"))
+        self.btn_clear.setText(_translate("MainClientWindow",
+                                          "Очистить поле"))
         self.menu.setTitle(_translate("MainClientWindow", "Файл"))
         self.menu_2.setTitle(_translate("MainClientWindow", "Контакты"))
         self.menu_exit.setText(_translate("MainClientWindow", "Выход"))
-        self.menu_add_contact.setText(_translate("MainClientWindow", "Добавить контакт"))
-        self.menu_del_contact.setText(_translate("MainClientWindow", "Удалить контакт"))
+        self.menu_add_contact.setText(_translate("MainClientWindow",
+                                                 "Добавить контакт"))
+        self.menu_del_contact.setText(_translate("MainClientWindow",
+                                                 "Удалить контакт"))

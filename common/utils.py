@@ -1,6 +1,5 @@
 import json
 import sys
-from .decorators import Log
 from .variables import MAX_PACKAGE_LENGTH, ENCODING
 sys.path.append('../')
 

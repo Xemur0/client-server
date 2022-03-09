@@ -1,18 +1,21 @@
 import argparse
 import os
 import sys
-from Cryptodome.PublicKey import RSA
-from PyQt5.QtWidgets import QApplication, QMessageBox
+import logging
 from client.main_window import ClientMainWindow
 from client.start_dialog import UserNameDialog
 from client.transport import ClientTransport
 from client.database import ClientDatabase
-import logging
+
 from common.variables import DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from common.errors import ServerError
 from common.decorators import Log
 
-LOGGER_FOR_CLIENT = logging.getLogger('client')
+from Cryptodome.PublicKey import RSA
+from PyQt5.QtWidgets import QApplication, QMessageBox
+
+
+logger_client = logging.getLogger('client')
 
 
 @Log()
@@ -29,8 +32,10 @@ def arg_parser():
     client_passwd = namespace.password
 
     if not 1023 < server_port < 65536:
-        LOGGER_FOR_CLIENT.critical(
-            f'Попытка запуска клиента с неподходящим номером порта: {server_port}. Допустимы адреса с 1024 до 65535. Клиент завершается.')
+        logger_client.critical(
+            f'Попытка запуска клиента '
+            f'с неподходящим номером порта: {server_port}. '
+            f'Допустимы адреса с 1024 до 65535. Клиент завершается.')
         exit(1)
 
     return server_address, server_port, client_name, client_passwd
@@ -39,7 +44,7 @@ def arg_parser():
 if __name__ == '__main__':
 
     server_address, server_port, client_name, client_passwd = arg_parser()
-    LOGGER_FOR_CLIENT.debug('Args loaded')
+    logger_client.debug('Args loaded')
 
     client_app = QApplication(sys.argv)
     start_dialog = UserNameDialog()
@@ -48,12 +53,14 @@ if __name__ == '__main__':
         if start_dialog.ok_pressed:
             client_name = start_dialog.client_name.text()
             client_passwd = start_dialog.client_passwd.text()
-            LOGGER_FOR_CLIENT.debug(f'Using USERNAME = {client_name}, PASSWD = {client_passwd}.')
+            logger_client.debug(f'Using USERNAME = {client_name}, 'f'PASSWD = '
+                                f'{client_passwd}.')
         else:
             exit(0)
 
-    LOGGER_FOR_CLIENT.info(
-        f'Запущен клиент с парамертами: адрес сервера: {server_address} , порт: {server_port}, имя пользователя: {client_name}')
+    logger_client.info(
+        f'Запущен клиент с парамертами: адрес сервера: {server_address} , '
+        f'порт: {server_port}, имя пользователя: {client_name}')
 
     dir_path = os.path.dirname(os.path.realpath(__file__))
     key_file = os.path.join(dir_path, f'{client_name}.key')
@@ -65,7 +72,7 @@ if __name__ == '__main__':
         with open(key_file, 'rb') as key:
             keys = RSA.import_key(key.read())
 
-    LOGGER_FOR_CLIENT.debug("Keys sucsessfully loaded.")
+    logger_client.debug("Keys sucsessfully loaded.")
     database = ClientDatabase(client_name)
 
     try:
@@ -76,7 +83,7 @@ if __name__ == '__main__':
             client_name,
             client_passwd,
             keys)
-        LOGGER_FOR_CLIENT.debug("Transport ready.")
+        logger_client.debug("Transport ready.")
     except ServerError as error:
         message = QMessageBox()
         message.critical(start_dialog, 'Ошибка сервера', error.text)

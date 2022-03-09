@@ -30,7 +30,9 @@ def arg_parser():
 
     if not 1023 < server_port < 65536:
         LOGGER_FOR_CLIENT.critical(
-            f'Попытка запуска клиента с неподходящим номером порта: {server_port}. Допустимы адреса с 1024 до 65535. Клиент завершается.')
+            f'Попытка запуска клиента с неподходящим номером порта: '
+            f'{server_port}. Допустимы адреса с 1024 до 65535. '
+            f'Клиент завершается.')
         exit(1)
 
     return server_address, server_port, client_name, client_passwd
@@ -46,12 +48,14 @@ if __name__ == '__main__':
         if start_dialog.ok_pressed:
             client_name = start_dialog.client_name.text()
             client_passwd = start_dialog.client_passwd.text()
-            LOGGER_FOR_CLIENT.debug(f'Using USERNAME = {client_name}, PASSWD = {client_passwd}.')
+            LOGGER_FOR_CLIENT.debug(f'Using USERNAME = {client_name}, '
+                                    f'PASSWD = {client_passwd}.')
         else:
             exit(0)
 
     LOGGER_FOR_CLIENT.info(
-        f'Запущен клиент с парамертами: адрес сервера: {server_address} , порт: {server_port}, имя пользователя: {client_name}')
+        f'Запущен клиент с парамертами: адрес сервера: {server_address} , '
+        f'порт: {server_port}, имя пользователя: {client_name}')
 
     dir_path = os.path.dirname(os.path.realpath(__file__))
     key_file = os.path.join(dir_path, f'{client_name}.key')
