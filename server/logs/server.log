@@ -1,0 +1,236 @@
+2022-03-07 16:36:17,195 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 16:36:17,198 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 16:36:17,969 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 16:37:09,476 INFO core.py Установлено соедение с ПК ('127.0.0.1', 51094)
+2022-03-07 16:53:02,029 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 16:53:02,031 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 16:53:02,215 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 16:56:00,272 INFO core.py Установлено соедение с ПК ('127.0.0.1', 51523)
+2022-03-07 17:28:49,440 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 17:28:49,442 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 17:28:49,567 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 17:28:58,696 INFO core.py Установлено соедение с ПК ('127.0.0.1', 51751)
+2022-03-07 17:33:15,193 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 17:33:15,196 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 17:33:15,322 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 17:33:48,705 INFO core.py Установлено соедение с ПК ('127.0.0.1', 51778)
+2022-03-07 17:35:28,016 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 17:35:28,019 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 17:35:28,667 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 17:36:13,798 INFO core.py Установлено соедение с ПК ('127.0.0.1', 51782)
+2022-03-07 17:46:37,342 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 17:46:37,344 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 17:46:37,474 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 17:46:48,597 INFO core.py Установлено соедение с ПК ('127.0.0.1', 51868)
+2022-03-07 18:08:15,889 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:08:15,890 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:08:16,007 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:08:27,098 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52058)
+2022-03-07 18:08:53,685 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:08:53,687 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:08:53,823 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:09:02,972 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52059)
+2022-03-07 18:10:20,471 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:10:20,473 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:10:20,622 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:10:30,789 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52063)
+2022-03-07 18:12:04,461 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:12:04,463 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:12:04,601 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:12:13,418 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52070)
+2022-03-07 18:13:08,009 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:13:08,012 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:13:08,158 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:13:16,041 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52130)
+2022-03-07 18:17:04,892 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:17:04,894 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:17:05,036 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:17:15,762 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52140)
+2022-03-07 18:22:16,477 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:22:16,478 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:22:16,610 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:22:32,646 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52161)
+2022-03-07 18:28:17,938 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:28:17,940 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:28:18,066 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:28:41,376 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52207)
+2022-03-07 18:30:14,845 DEBUG decorators.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2022-03-07 18:30:14,846 DEBUG decorators.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2022-03-07 18:30:14,848 DEBUG decorators.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2022-03-07 18:30:14,848 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['server.py']
+2022-03-07 18:30:14,851 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:30:14,974 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:37:54,509 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:37:54,511 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:37:54,644 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:38:27,750 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:38:27,752 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:38:27,877 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:39:04,072 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 18:39:04,074 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 18:39:04,200 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 18:39:19,467 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52519)
+2022-03-07 19:13:06,219 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:13:06,221 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:13:06,356 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:13:29,149 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52695)
+2022-03-07 19:17:12,393 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:17:12,395 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:17:12,516 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:17:24,985 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52705)
+2022-03-07 19:17:25,496 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646669844.992389, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:17:25,496 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:17:25,499 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:17:25,500 DEBUG core.py Auth message = {'response': 511, 'bin': '7084d053817bec83200d93bfa2ecccaabdd5e0682345ceaa71659d85cb04271fdfd82b557ffaf0769e5afec9cfa9fc4a47b71ff563feb9034fbba5c24732579b'}
+2022-03-07 19:17:45,230 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:17:45,232 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:17:45,381 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:18:08,650 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52707)
+2022-03-07 19:18:09,155 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646669888.6581476, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:18:09,155 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:18:09,156 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:18:09,157 DEBUG core.py Auth message = {'response': 511, 'bin': 'f4c1e069726f136da3a7069c0d07eeec5fa29285ab8674649ea7f7411d78b8520dd1220fb7dda24adb60a68c0cc357ffa07a784e5e470a7626be67827405af44'}
+2022-03-07 19:18:09,807 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646669889.1585517, 'account_name': 'test1'}
+2022-03-07 19:18:10,322 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646669889.9217055, 'user': 'test1'}
+2022-03-07 19:18:10,837 DEBUG core.py Getting data from client exception.
+Traceback (most recent call last):
+  File "D:\client-server\server\core.py", line 87, in run
+    get_message(client_with_message), client_with_message)
+  File "D:\client-server\common\utils.py", line 9, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2022-03-07 19:18:10,838 INFO core.py Клиент ('127.0.0.1', 52707) отключился от сервера.
+2022-03-07 19:19:53,764 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52716)
+2022-03-07 19:19:54,271 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646669993.7721364, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:19:54,271 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:19:54,272 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:19:54,273 DEBUG core.py Auth message = {'response': 511, 'bin': '9489de05e69a9a5d3d801ccb40039a7595d7fb5daf1ea56a0131cc7e29b6e88fb065b08ef37d90a4904d14b88a0b8191a301879d1ae3c6603a674c82ee60280b'}
+2022-03-07 19:20:09,351 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:20:09,353 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:20:09,519 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:20:18,571 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52718)
+2022-03-07 19:20:19,078 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646670018.5800223, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:20:19,078 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:20:19,081 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:20:19,082 DEBUG core.py Auth message = {'response': 511, 'bin': 'f9215c40de682f3f45e1280f8973224e098a6f94277f7f46ce248fe9c35ec22a7d58e04afe6d7f9c03bb41825a3f5d6da05aa701994a430c0bcf16105bf4dd1b'}
+2022-03-07 19:20:19,717 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646670019.0830145, 'account_name': 'test1'}
+2022-03-07 19:20:20,231 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646670019.8385293, 'user': 'test1'}
+2022-03-07 19:20:47,707 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646670047.5441236, 'account_name': 'test1'}
+2022-03-07 19:20:48,222 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646670047.884502, 'user': 'test1'}
+2022-03-07 19:21:15,018 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52719)
+2022-03-07 19:21:15,528 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646670075.0253816, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:21:15,530 DEBUG core.py Start auth process for {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:21:15,530 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:21:15,531 DEBUG core.py Auth message = {'response': 511, 'bin': '905cc9a1caf7c1f8f62dd2aedf92598f82fe8e2c8d74ef964e4d73b29c804ccaca552164e61d634eabebe21112b932c5bc202931c8ce49bb5f16d4fa4e2e0eb4'}
+2022-03-07 19:21:16,173 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646670075.532811, 'account_name': 'test2'}
+2022-03-07 19:21:16,686 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646670076.2759526, 'user': 'test2'}
+2022-03-07 19:21:22,822 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646670082.5516183, 'account_name': 'test1'}
+2022-03-07 19:21:23,336 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646670083.322098, 'user': 'test1', 'account_name': 'test2'}
+2022-03-07 19:21:25,495 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646670085.342845, 'account_name': 'test2'}
+2022-03-07 19:21:27,535 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646670087.1893911, 'mess_text': 'V+YQpWYGPOVV2WrKGMWNV6S7Fh19TDoxxPoh0ZMoC0YqUgzZUEZQ7v058JqDFFdXe1ToVpKUJhHfFI0Kes3uFetegaM6ggRuum6fE+85+JXTPEBS884x9R5F1BeTtst7aSb/IJD0Bg0KJXZ3DctMTYzpsAkk2N8J2OtfDydY9Gv1E5nVfYgq6LH2Ar9+V4qQwZ4LRoEj9wc35MdcUKuHPVIzn2TdEw/l7AMyvFl3P1MSy3rVPYT3qAATxSsYi6U6YnPuXFo5DvnApiSEbejcC/McCJi0eqgIMqSMundESJAz+6+x8PpXl5XRB2FuLF5nYLhEhSPqf9CbHtDD0dvixw=='}
+2022-03-07 19:21:27,634 INFO core.py Отправлено сообщение пользователю test2 от пользователя test1.
+2022-03-07 19:21:30,174 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646670089.391042, 'user': 'test2', 'account_name': 'test1'}
+2022-03-07 19:21:31,809 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646670091.55959, 'account_name': 'test1'}
+2022-03-07 19:21:33,861 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1646670093.654279, 'mess_text': 'U6KHYwLBv445sNSYK0qczTzmb4SjX/abzGcNR7ptgF9ThfAV7Em9/3SRpEANiq0jK5H0enZY7aj2JfynALNtnS2wZNuXplv1f7ePWJjqjYV6bLD9Yn8ojpLv7hugzyRnvPT6vlK7Z21g5GQO0SAjU/IHpHijMj/rvOXSbiwmgWFExalSn8hJplnL5DScWV9LYP78rXf+xZu+UdZ9aq7oPg6kx3JWeYl0urZ2Az+HmLDb+damKTXpieK9z4907B504bQETjGaoJwL4pda0HrLf7ZCVBrKkqdqixBz1dhh39AYtWIB6aLYVXNw9k5rNO9ZrRh1MGs0qNIP1p9Wh3IfUA=='}
+2022-03-07 19:21:33,975 INFO core.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-03-07 19:21:51,787 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646670111.6050234, 'account_name': 'test2'}
+2022-03-07 19:21:51,787 INFO core.py Клиент ('127.0.0.1', 52719) отключился от сервера.
+2022-03-07 19:21:54,440 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646670114.327708, 'account_name': 'test1'}
+2022-03-07 19:21:54,440 INFO core.py Клиент ('127.0.0.1', 52718) отключился от сервера.
+2022-03-07 19:46:37,385 DEBUG decorators.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2022-03-07 19:46:37,386 DEBUG decorators.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2022-03-07 19:46:37,389 DEBUG decorators.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2022-03-07 19:46:37,389 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['server.py']
+2022-03-07 19:46:37,392 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:46:37,561 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:47:04,324 DEBUG decorators.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2022-03-07 19:47:04,325 DEBUG decorators.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2022-03-07 19:47:04,326 DEBUG decorators.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2022-03-07 19:47:04,326 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['server.py']
+2022-03-07 19:47:04,329 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:47:04,444 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:49:18,846 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:49:18,848 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:49:19,607 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:50:18,674 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:50:18,676 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:50:18,830 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:50:36,799 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52848)
+2022-03-07 19:50:37,305 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646671836.8064396, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:50:37,305 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:50:37,306 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:50:37,308 DEBUG core.py Auth message = {'response': 511, 'bin': '1d16a4b2fdaa8982c21b5965409db03a81b173b15f86e24a0a9573e16b9852818c9d2ff4231f69009636394b97ca1947b0ab4ca2ef2d84797be1f17b4e54769d'}
+2022-03-07 19:50:37,939 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646671837.3095074, 'account_name': 'test1'}
+2022-03-07 19:50:38,440 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646671838.055542, 'user': 'test1'}
+2022-03-07 19:50:47,705 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52849)
+2022-03-07 19:50:48,207 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646671847.7128913, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:50:48,207 DEBUG core.py Start auth process for {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:50:48,208 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:50:48,209 DEBUG core.py Auth message = {'response': 511, 'bin': '4516d5ae238c5d19f55a46b9d991123e0f0fb0ed26f955031bc592b333d582949cb1cf972c4e6d00c9a5dcf6d6ee1db210febb874dceb472830982928a0eaf3c'}
+2022-03-07 19:50:48,865 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646671848.2103584, 'account_name': 'test2'}
+2022-03-07 19:50:49,381 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646671849.0040965, 'user': 'test2'}
+2022-03-07 19:50:52,434 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646671852.2279837, 'account_name': 'test2'}
+2022-03-07 19:50:52,950 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646671852.7651322, 'user': 'test2', 'account_name': 'test1'}
+2022-03-07 19:50:55,608 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646671855.2401016, 'account_name': 'test1'}
+2022-03-07 19:50:57,148 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1646671856.9244227, 'mess_text': 'kasD3CAASnlXytgU6VOX6/STurQRisOBVFNyKNrfju04xzPxsxqCYrrG2vYvfa5TjhfBIwEDRTK/3EjGZp/pXlfjBHW+gvJGvLM3kVHYmGb57fc9QFCOz3HCAHZXAVJRj2qxZ9nt42Z/pbvD1WdBHXx6N9QLCLf9P8/CkbsEIocgivAzW1+0TmC3s888nHh399voK8DF2JZuUAHmqsHAZ1YlN67cB9X4JQeSVVI4DQ0UghbtOjSm76zHdl5Lk8M7hLppfq1q8bzvqfcikNxgKvec/oaev5MpHq/dD4VaB0iK+zFpMD6iyKOQEyax4trKnErHV+U1jUiG2BQpSHnX7Q=='}
+2022-03-07 19:50:57,246 INFO core.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-03-07 19:50:59,284 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646671858.7269874, 'user': 'test1', 'account_name': 'test2'}
+2022-03-07 19:51:00,944 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646671860.5218437, 'account_name': 'test2'}
+2022-03-07 19:51:02,975 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646671862.5621068, 'mess_text': 'EU9zdQ9ICISR0DWdGTadT7W0wE1gSiNrX2PP8qjW/OEKukDB3Lad17crbpG6heYfmkxd8mALzCVtt8rMh1FZar6ZY87Djqq2Irof8ngiFSO0fyuAzNT57Loftj3HCmZ/t2Gac3RUHUycsZ+woj1+Df6oyYOskMKxca6bG2YM5ceEWhaojSmkDnd3OlJbAn33OdC290EdtS0T2U0Ja9+mQBXMPMdF6SRna3bHRBt/oxPwfo1h9SmWLhaVOc5bd/PhZoKcGmn69DvDJxWKKWRHBzJyDqlBOJ/ji1IEI07uNdfrcwBD2cMoM/kchJa7Krf9kqClXKRDabNZyss5Qncagg=='}
+2022-03-07 19:51:03,095 INFO core.py Отправлено сообщение пользователю test2 от пользователя test1.
+2022-03-07 19:51:04,624 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646671864.4098744, 'mess_text': 'iHb2fSr65BBaCSMeW/y607BSZ/sZeVFPA7ANNjkKNR4Tn6SYAp9ft7By4oAeLDswdI6Rarvslmo07hj2MODUPlcvNB1gKQKMIS7AfB+7o4Od+yIi8iwFkjVIIIhmSEqxSK4YOkLSN6uFL7g0+rMom/jHMwLwH0ITozeMUI729JdOKCOsRaPYAd5faowu441dDiok2KogvEhGSpVCdOu9Aa/bKrmq4gTvt0q17yIvRiVkrdBuy3vS12Qg6qXHGre0p8B5qObL2RadnNBBqeZnEc94Mj+1qlDDNhLOdlbvvtYDBYStWRh8AItXHP2u8ndOkTVeG5KE8osvYQpCTw47cw=='}
+2022-03-07 19:51:04,738 INFO core.py Отправлено сообщение пользователю test2 от пользователя test1.
+2022-03-07 19:51:06,777 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646671866.698715, 'mess_text': 'gfXOwBzvhlzl8xySK8DwgEx9zQZWhy2T9pW/KIIy22LgDUVPWJTqzMMFNJ+E89xBmpMkkEsOwFbq/5DrBp7On6/kHfBwx2jqvH/+1ruccxBB5alpwE0TlnQndsfEP07To09MLnJUxDYry9nx5ZtWPddhF2USZM+Ya5R88aiRhCARrXzwMh3iwSipetzx8ohfaB5tq2hCOn3UnuRZHGCFmwmAWQl5A3RsQJhhmHQe+WpPMJoCVCUNbxhuSlGJDvFgzVi1hPRueoP8cq0PlinO49Sf6/srS6r2py7q+cH+t/ufCo3bpZWSCE6f5lpZRTB4JfX2UrNmyTp8bwK+4slhCA=='}
+2022-03-07 19:51:47,651 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:51:47,653 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:51:47,861 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:51:56,128 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52852)
+2022-03-07 19:51:56,637 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646671916.1357079, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:51:56,637 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:51:56,641 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:51:56,642 DEBUG core.py Auth message = {'response': 511, 'bin': '0701f698017d00be4ea2e5996bb7fe10ed5db77d72ce18e183fd8a96ceafa63c55a6612c21488ffb5c1d151fac83e11029e1f34a69d137c0284a45bbbfe4262a'}
+2022-03-07 19:51:57,261 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646671916.6439521, 'account_name': 'test1'}
+2022-03-07 19:51:57,776 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646671917.3746984, 'user': 'test1'}
+2022-03-07 19:52:05,187 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52853)
+2022-03-07 19:52:05,689 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646671925.1964536, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:52:05,689 DEBUG core.py Start auth process for {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:52:05,690 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:52:05,691 DEBUG core.py Auth message = {'response': 511, 'bin': 'ced3cce93c1315285463c1903c669498d9183da1ec9926f6939490e0a104a0284920faa1b89be6d107d601f832426301e429eb4d3468b97b4a18f6089de7d286'}
+2022-03-07 19:52:06,312 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646671925.692328, 'account_name': 'test2'}
+2022-03-07 19:52:06,825 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646671926.427191, 'user': 'test2'}
+2022-03-07 19:52:21,628 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646671941.3958783, 'account_name': 'test1'}
+2022-03-07 19:52:23,157 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646671942.796904, 'account_name': 'test2'}
+2022-03-07 19:52:35,927 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1646671955.7961998, 'mess_text': 'Ogd/1pZhfZYL9E6BgAIuv2mg2Szlwyz8689nI+uHHqv1m3N2BQaoKKAjYf5H3LWQ07z8ox8VbHnsUQTeOR4O7yEQ+bRGavEfzsJoDAHPAvzKaO1iSZFcVJA739BSR7DO0y3r63eW0TNXT6Mo2o7/whdrMgHWyl/2sjd1fZB47pLC7h53i8uScUgm+bHsdAbGWArL6hzQFBzEB42BEVMHdKBILKCalPvjkS1MR8tc0V+XR921oq1j2SGZ7wNeoKzuWDAgJoPUtOpoqGL9zP3cd7yfHCbdgIvn2NPHiAY6muSvzT5eTO+tpOpSbL+0RNWYnY4LhvJbG2dTyhMmSKulPQ=='}
+2022-03-07 19:52:36,042 INFO core.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-03-07 19:52:40,129 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646671959.6012774, 'mess_text': 'cusSJVftY13p8CMMp/irPwoCcmpy9gzg7SWycNTSkqtlWJdkAXUpBm2l+JQL1aqV5KOHCA13s9pXrvlI0JvByXrtGm+Vw0ejYjaiUp3ZR8AjQ3KWDbCUD1OU8WKT0WGWtrKMbkRP9SHag/3MeCxk+FtvtTMDnyQlIF1BRmzG6a2/c60lWhW0J5hnCq0UXVCWfFICnUVrI45vhuQAU0aMEjzITwRKB7efiKDb6Hi7U8t3ni1a8OV28j4uyQk9pLgQDfM83C9oqIk38m28uwBBCKIsAAn1HZkt2HVRips5RG8smMWfmrYWFkwcUXApuj68HSU3fpTfnE0CmsxMOZ1Yqw=='}
+2022-03-07 19:52:40,234 INFO core.py Отправлено сообщение пользователю test2 от пользователя test1.
+2022-03-07 19:52:47,919 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646671967.1119685, 'mess_text': 'OuYWN7Dq/0Xjl9YVuyOb1y8KIUY3Gfoa7NBvcvHa1B1biBEr4TPAmqcx14rE1LTC6RLjMhPnanofLVkqA16JJJiiA68Ew20GMTdBgP/w/Pdg4SABeuB2NmKhMMgH0RcjN1Jl/dTQWxN+sxkpNrBEbPyhylRA4yttN2pTzj0NZq1An6YQHGz9OGaObi0EBjnnpQZIeqEttk06ZPZXTnAPYABvyqIgKZLE8XVFNWl59l32YdPsHBDjAllh3OrN2jlYO7Fmx+twPM8uMllRwCB9d5cCDKRz8HXK7vbdq0MDqqqlvvThcW1bApEf/nofsfm11VrPmhlxg9qUuhN3YiMCeg=='}
+2022-03-07 19:52:48,043 INFO core.py Отправлено сообщение пользователю test2 от пользователя test1.
+2022-03-07 19:52:51,616 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1646671971.2740257, 'mess_text': 'rAFnfbuvo+1I7aLGl3tkN6dPZQpCuopToT5dfJu4Ivdcdxlg0Irs5poC4vZLIz9ALr1H81MlagxutVnA2IJGhKxTlCf5IPNwhkg8YZEXSqJpE25IRnjN3wubFv3O6S+PNZC5b1cZRNe7FsHr/xpbx403V4jACaVWr/GS4tS0zYa4fYB6tMwtfJ2kZgsA6hDisr+W6+kGMGBK9vR/CTpCJoBkRUJ8odzM+au48GLuWbVa0BpVgA58UDJUiE3idniprXZbA0ziMhqsHWfQ/64JJQ41erDPHrG9DsHObPh2bWia0hN2kc3eabJM+T2ZYFB9/9Rvs9IrNg4Gi7SM+a7i8w=='}
+2022-03-07 19:52:51,718 INFO core.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-03-07 19:52:55,797 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646671975.4492772, 'mess_text': 'RvHDHoC8ZFvDi8gVhTSnQzED523oU54F14HWvZ9p909m7j/uXk3EfRN4yCW894qgh6mTWfKl0WgcTNX3W4O+tyIaKR45QwlNlrMY3cB0/fyxXHppPVgtbZNDkd2S6Pq68a/UwOVVD1skjelfqwbsTkTC8181rJDT1Ta47gLqv9MV5N5s2vmZA3W/BnM6NPjdqmp0Up5c6eJW0/XNO5qcwkZ562rYZ0ruchM1vSe0sXEWINdbfXWHdTERHDCfXcsLhmxcBdbSpK16rpRXz9kPgpViuKZ5Z+Uzs4lsheU0hwwXsifRaKtYtVwu3PHX7vqJvD/noqKTzdG18kdElzmWOQ=='}
+2022-03-07 19:54:37,098 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/client-server/server.py']
+2022-03-07 19:54:37,100 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 19:54:37,283 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 19:54:49,318 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52981)
+2022-03-07 19:54:49,824 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646672089.3251452, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:54:49,824 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypUBeCqw+k7Fuox0gjMI\nMhAUe8uj2QynD5J260pk+NGMP3LIPLQbtENEQAsnclj0QB2gJS95z9tOg1bWH6Kg\nrftqsKIhaUGkgMjuOdRlsZ/QErofwyhcT43uNPXHoxECo8YElZLliBsqhCZs526U\nZ8Tow2qSPAghMGQ2FxhKpIC64rL5yA1NBFr/uaMhDtPvcj0pLugx7wUalet21yP5\neKdxz6LkperjrhheH6/NsATGUC2VY5nZMfzgOUY56MPJ6anJVfFScFYjAxg96Sih\nj14Qyk6FJ9L/sORD/Aod7GXJH5sQO4qd0dH//NjLX+do4d9Yw+ltHjNzOzu1v53f\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:54:49,828 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:54:49,829 DEBUG core.py Auth message = {'response': 511, 'bin': '1255f2a0477f23bedff569518abd75705f2b7648b0999445a303beab81334de175bb5fa50bcd474c18e8e3b76e28bdde8ae0730370a0e11d58474c81e3d16f85'}
+2022-03-07 19:54:50,446 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646672089.8307858, 'account_name': 'test1'}
+2022-03-07 19:54:50,958 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646672090.5574307, 'user': 'test1'}
+2022-03-07 19:54:53,001 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646672092.219277, 'account_name': 'test2'}
+2022-03-07 19:54:56,038 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1646672095.7690735, 'mess_text': 'Ajepy/f+o+QYGFfDrgqNev98sm9YCGIy+mjvgwd3cbWmlppBFPmztFVeXwCKmRzGjF9UeaxXbe25rnJA4vIePcYBcaHNlvV4uoz3Ji10qf/3jiSVLjZL4Xs0lXikzRbwFbh5EuwafQXuGrk7wEx6uNUdml2Db4Wg3OsU8gcZv3yTBc3PXgqH9S285178tGYRBedvfaH07qLSkYqmBmnibQShpOlspkI6ITNdqr3OvOSUILZfU2A99lZLnznj3VS6lWRqcBL/12c2Zlqri7IVbnYS8B4M8AzzOt6+pnoxjvWeuKrvBGXAtzBG5OITfnvT+DNFIIQd/s6YQC2QOMASvA=='}
+2022-03-07 19:55:02,641 INFO core.py Установлено соедение с ПК ('127.0.0.1', 52982)
+2022-03-07 19:55:03,146 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646672102.6491754, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 19:55:03,146 DEBUG core.py Start auth process for {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimrlfyvFZGUIzVOW+UcC\nGJhVpARjXFulB6d+gnRJ2aMtyL857F869W3BWD9IbuSfy6p/62FVVxTN6lHmzdUM\nMSqQAMmhZt+CahqCB7YXxVz4jgmrNSDVRjvksxrqdtn6jloOvek/nEP7DeIuCLMf\n0AqAlp9ZsyLUjFyaG4Y1KEcYbQ+nSo1CfaEtK5Bgjbr+qzWtKuuEwru9VUVuVrbg\nmhpi8kGl0UcfNFYH/8URBej+SsljfPKBoareaotoDcTLcZ+jArg228bGA6lo9Tqt\nEHjy5ZUnKEEgAM73jWy2DS27qK6OD5nbtCOAOep7yokc93cFJozQxcjFl/4hkUhg\nqwIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 19:55:03,147 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 19:55:03,148 DEBUG core.py Auth message = {'response': 511, 'bin': '7ab8c73da3149f79bc2bde278a0604f5ab09ac25e6bc68e1a0ab1cfff80b2037b2d1c2615e0223988ae2ad185666a2302a32e0d576f4fbb36a13ad55c717df4f'}
+2022-03-07 19:55:03,769 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646672103.1497326, 'account_name': 'test2'}
+2022-03-07 19:55:04,281 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646672103.8853083, 'user': 'test2'}
+2022-03-07 19:55:06,331 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646672105.9098973, 'account_name': 'test1'}
+2022-03-07 19:55:07,873 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1646672107.448416, 'mess_text': 'vd61dj15wAHxW0SuXeTSEJtMZ/Qp9deFNse8IIbobJ7K8k4lPoslLIDE92OdOZ+ZvPhyRXIVRuqZ5ITDBt6OwizhuCGX52seDI8Ha3gheMddDGCLLbpcPTx7aN1wO3zoHl2Nm95FXJ8FCx+Mb+RjSbgtOousaVwDxdrPmWBlytjGj1Q54E6QBD0P8ttSB8PIwQHFzkex99Q3tFUUP6G3hy17xij6OMitAxpEe1ykeflhJP4TnRwgaPoPBQBuBpAN4CJYWvSYGWGEDjZTjoqN7sq9zU4XUidM2MBvEc5twy3r2qECne3+xqefuDThQTfx7I9wwFXwwSZcRSlQJCw21g=='}
+2022-03-07 19:55:07,996 INFO core.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-03-07 19:55:09,535 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1646672109.1020386, 'mess_text': 'OwH4IeIymvvxMnMbqgM6w6u4GC/h4K3zvx++Je+ACOxlqeqkwPRiFRPaRrDWgT1h/ElaZmhf8+v9C1awrTNLTPNklaV/WY1se4GekWNI4PrS22LnZETvVJeHWUeApGs538uAJ2IFXPhSBnOAaP4kn6Lnf5ewC1HDh4Xeb9eAfV//e7+/43bXlc9kL2dkPQZiQdp3VoAbDTwPpvIBokpsEY0JAlim5w8L7zAGc9t9UitKZ/cpQZ7t82DEQk/OQuu5DSm8e9jMOceoR4cP2b480GWRkmikHYAwidhuoFsyyNz8YEoL9nzFk3zhU2l8i3SnB7kP4SUetWPLHfF27wwPSw=='}
+2022-03-07 19:55:09,648 INFO core.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-03-07 19:55:11,185 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1646672110.8856215, 'mess_text': 'tgveNC9ckFU5zR5/THygiLxgehvEwcewqcxnwI5sZyiZVXPLfjB50XfK+zmQR50akc5EmvxV7VHcrqH8MuGRHujClIuGC0SV9JI0OzcTokfJ8iN6NrzqTRjoIT14FA+gwlt2jNkgoktEKN+DNlRCnwFhYw74HJdg015Obb4Lf2fhiIoGnXb5jR4jhre1tOrsSdcgdfrSk+xWpwn6QpOrk1jiCgkNM3zOuND1iVkwRj8cllxjnVdYHM2AbaeDSwn5WN2Pjp1OCpAsic7tAnPGZ2K2LXtWRr4nEU1GwVq4/koiV0+UzcxaKtIzL6V8f7Ia8hrpHBbV7aklfR9ASNIlhw=='}
