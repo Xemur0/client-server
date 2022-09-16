@@ -2,29 +2,19 @@ import dis
 
 
 class ServerVerifier(type):
-    def __init__(self, clsname, bases, clsdict):
-        """
-        clsname - экземпляр метакласса - Server
-        bases - кортеж базовых классов - ()
-        clsdict - словарь атрибутов и методов экземпляра метакласса
-        {'__module__': '__main__',
-        '__qualname__': 'Server',
-        'port': <descrptrs.Port object at 0x000000DACC8F5748>,
-        '__init__': <function Server.__init__ at 0x000000DACCE3E378>,
-        'init_socket': <function Server.init_socket at 0x000000DACCE3E400>,
-        'main_loop': <function Server.main_loop at 0x000000DACCE3E488>,
-        'process_message': <function Server.process_message at 0x000000DACCE3E510>,
-        'process_client_message': <function Server.process_client_message at 0x000000DACCE3E598>}
-        """
+    """
+    Проверка на соответствие Сервера
+    """
+    def __init__(self, classname, bases, classdict):
 
         methods = []
 
         attrs = []
 
-        for func in clsdict:
+        for func in classdict:
 
             try:
-                ret = dis.get_instructions(clsdict[func])
+                ret = dis.get_instructions(classdict[func])
 
             except TypeError:
                 pass
@@ -42,21 +32,25 @@ class ServerVerifier(type):
         print(methods)
 
         if 'connect' in methods:
-            raise TypeError('Использование метода connect недопустимо в серверном классе')
+            raise TypeError('Использование метода connect недопустимо '
+                            'в серверном классе')
 
         if not ('SOCK_STREAM' in attrs and 'AF_INET' in attrs):
             raise TypeError('Некорректная инициализация сокета.')
-        super().__init__(clsname, bases, clsdict)
+        super().__init__(classname, bases, classdict)
 
 
 class ClientVerifier(type):
-    def __init__(self, clsname, bases, clsdict):
+    """
+    Проверка на соответствие Клиента
+    """
+    def __init__(self, classname, bases, classdict):
 
         methods = []
-        for func in clsdict:
+        for func in classdict:
 
             try:
-                ret = dis.get_instructions(clsdict[func])
+                ret = dis.get_instructions(classdict[func])
 
             except TypeError:
                 pass
@@ -69,10 +63,12 @@ class ClientVerifier(type):
 
         for command in ('accept', 'listen', 'socket'):
             if command in methods:
-                raise TypeError('В классе обнаружено использование запрещённого метода')
+                raise TypeError('В классе обнаружено использование '
+                                'запрещённого метода')
 
         if 'get_message' in methods or 'send_message' in methods:
             pass
         else:
-            raise TypeError('Отсутствуют вызовы функций, работающих с сокетами.')
-        super().__init__(clsname, bases, clsdict)
+            raise TypeError('Отсутствуют вызовы функций, работающих '
+                            'с сокетами.')
+        super().__init__(classname, bases, classdict)

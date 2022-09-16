@@ -1,14 +1,14 @@
 import os
-import argparse
 import logging
 import configparser
-import logs.server_log_config
-from common.utils import *
+import argparse
+import sys
 from common.decorators import Log
 from common.variables import DEFAULT_PORT
 from server.core import MessageProcessor
 from server.database import ServerStorage
 from server.main_window import MainWindow
+
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
 
@@ -17,9 +17,7 @@ LOGGER_FOR_SERVER = logging.getLogger('server')
 
 @Log()
 def arg_parser(default_port, default_address):
-    """
-    Парсер аргументов коммандной строки.
-    """
+    """Парсер аргументов коммандной строки."""
     LOGGER_FOR_SERVER.debug(
         f'Инициализация парсера аргументов коммандной строки: {sys.argv}')
     parser = argparse.ArgumentParser()
@@ -36,9 +34,7 @@ def arg_parser(default_port, default_address):
 
 @Log()
 def config_load():
-    """
-    Парсер конфигурационного ini файла.
-    """
+    """Парсер конфигурационного ini файла."""
     config = configparser.ConfigParser()
     dir_path = os.path.dirname(os.path.realpath(__file__))
     config.read(f"{dir_path}/{'server.ini'}")
@@ -59,7 +55,8 @@ def main():
     config = config_load()
 
     listen_address, listen_port, gui_flag = arg_parser(
-        config['SETTINGS']['Default_port'], config['SETTINGS']['Listen_Address'])
+        config['SETTINGS']['Default_port'], config['SETTINGS']
+        ['Listen_Address'])
 
     database = ServerStorage(
         os.path.join(

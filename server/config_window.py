@@ -1,22 +1,18 @@
-from PyQt5.QtWidgets import QDialog, QLabel, QLineEdit, QPushButton, QFileDialog, QMessageBox
-from PyQt5.QtCore import Qt
 import os
+from PyQt5.QtWidgets import QDialog, QLabel, QLineEdit, QPushButton, \
+    QFileDialog, QMessageBox
+from PyQt5.QtCore import Qt
 
 
 class ConfigWindow(QDialog):
-    """
-    Класс окно настроек.
-    """
-
+    """Класс окно настроек."""
     def __init__(self, config):
         super().__init__()
         self.config = config
-        self.initUI()
+        self.init_ui()
 
-    def initUI(self):
-        """
-        Настройки окна
-        """
+    def init_ui(self):
+        """Настройки окна"""
         self.setFixedSize(365, 260)
         self.setWindowTitle('Настройки сервера')
         self.setAttribute(Qt.WA_DeleteOnClose)
@@ -55,7 +51,8 @@ class ConfigWindow(QDialog):
         self.ip_label.setFixedSize(180, 15)
 
         self.ip_label_note = QLabel(
-            ' оставьте это поле пустым, чтобы\n принимать соединения с любых адресов.',
+            ' оставьте это поле пустым, чтобы\n принимать соединения '
+            'с любых адресов.',
             self)
         self.ip_label_note.move(10, 168)
         self.ip_label_note.setFixedSize(500, 30)
@@ -82,9 +79,7 @@ class ConfigWindow(QDialog):
         self.save_btn.clicked.connect(self.save_server_config)
 
     def open_file_dialog(self):
-        """
-        Метод обработчик открытия окна выбора папки.
-        """
+        """Метод обработчик открытия окна выбора папки."""
         global dialog
         dialog = QFileDialog(self)
         path = dialog.getExistingDirectory()
