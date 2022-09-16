@@ -3,8 +3,9 @@ import logging
 DEFAULT_PORT = 7777
 DEFAULT_IP_ADDRESS = '127.0.0.1'
 MAX_CONNECTIONS = 5
-MAX_PACKAGE_LENGTH = 1024
+MAX_PACKAGE_LENGTH = 102400
 ENCODING = 'utf-8'
+LEVEL_LOGGING = logging.DEBUG
 SERVER_CONFIG = 'server.ini'
 
 ACTION = 'action'
@@ -13,6 +14,8 @@ USER = 'user'
 ACCOUNT_NAME = 'account_name'
 SENDER = 'from'
 DESTINATION = 'to'
+DATA = 'bin'
+PUBLIC_KEY = 'pubkey'
 
 PRESENCE = 'presence'
 RESPONSE = 'response'
@@ -25,17 +28,24 @@ LIST_INFO = 'data_list'
 REMOVE_CONTACT = 'remove'
 ADD_CONTACT = 'add'
 USERS_REQUEST = 'get_users'
-
-LEVEL_LOGGING = logging.DEBUG
+PUBLIC_KEY_REQUEST = 'pubkey_need'
 
 RESPONSE_200 = {RESPONSE: 200}
-# 202
-RESPONSE_202 = {RESPONSE: 202,
-                LIST_INFO:None
-                }
-RESPONSE_400 = {
-            RESPONSE: 400,
-            ERROR: None
-        }
 
-SERVER_DATABASE = 'sqlite:///server_base.db3'
+RESPONSE_202 = {RESPONSE: 202,
+                LIST_INFO: None
+                }
+
+RESPONSE_400 = {
+    RESPONSE: 400,
+    ERROR: None
+}
+
+RESPONSE_205 = {
+    RESPONSE: 205
+}
+
+RESPONSE_511 = {
+    RESPONSE: 511,
+    DATA: None
+}
