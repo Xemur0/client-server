@@ -136,7 +136,6 @@ class ServerStorage:
         sender_row.sent += 1
         recipient_row = self.session.query(self.UsersHistory).filter_by(user=recipient).first()
         recipient_row.accepted += 1
-
         self.session.commit()
 
     def active_users_list(self):
