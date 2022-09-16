@@ -1,17 +1,18 @@
 import argparse
 import sys
-
 import socket
 import threading
 import time
-from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
-    RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT, MESSAGE, MESSAGE_TEXT, SENDER, EXIT, DESTINATION
-from common.utils import *
+from common.utils import send_message, get_message
 import logging
+import json
 import logs.client_log_config
+from common.variables import ACTION, EXIT, TIME, ACCOUNT_NAME, MESSAGE, SENDER, DESTINATION, MESSAGE_TEXT, PRESENCE, USER, RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from errors import ReqFieldMissingError, ServerError, IncorrectDataRecivedError
 from decorators import Log
 from metaclasses import ClientVerifier
+
+
 
 LOGGER_FOR_CLIENT = logging.getLogger('client')
 
@@ -174,9 +175,12 @@ def main():
             f'Не удалось подключиться к серверу {server_address}:{server_port}, конечный компьютер отверг запрос на подключение.')
         exit(1)
     else:
+        # Если соединение с сервером установлено корректно, запускаем клиенский процесс приёма сообщний
         module_reciver = ClientReader(client_name, transport)
         module_reciver.daemon = True
         module_reciver.start()
+
+        # затем запускаем отправку сообщений и взаимодействие с пользователем.
         module_sender = ClientSender(client_name, transport)
         module_sender.daemon = True
         module_sender.start()
